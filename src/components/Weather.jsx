@@ -226,7 +226,7 @@ function Weather() {
         {/* {darkMode ? 'Light' : 'Dark '} */}
         {darkMode ? 'Light' : 'Dark '}
       </button>
-      <p className='TempNow'>TempNow</p>
+      <p className='TempNow'>TempNow <span style={{fontSize:"15px",fontStyle:"italic"}}>- Your Personal Forecast, Anytime, Anywhere.</span></p>
       <div className="weather ">
         <div className="search-bar">
           <input ref={inputRef} type="text" placeholder='Search' />
